@@ -11,7 +11,7 @@ def generate_response(input_text):
 
 with st.form('my_form'):
   text = st.text_area('Ask Bina:', 'Write me a short post about a gecko named AJ')
-  submitted = st.form_submit_button('Submit')
+  submitted = st.form_submit_button('Ask Me')
   if not openai_api_key.startswith('sk-'):
     st.warning('Please enter your OpenAI API key!', icon='⚠')
   if submitted and openai_api_key.startswith('sk-'):
