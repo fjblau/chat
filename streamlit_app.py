@@ -5,8 +5,8 @@ st.title('🦜🔗 Quickstart App')
 
 openai_api_key = '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'
 
-  llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
-  st.info(llm(input_text))
+llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
+st.info(llm(input_text))
 
 with st.form('my_form'):
   text = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
