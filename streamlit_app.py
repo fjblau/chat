@@ -7,7 +7,6 @@ from langchain.schema import (
 )
 from langchain.callbacks import get_openai_callback
 
-st.title('🦜 Bina has an AI')
 openai_api_key = st.secrets["openai_api_key"]
 
 def init_page():
