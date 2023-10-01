@@ -11,10 +11,10 @@ openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 def init_page():
     st.set_page_config(
-        page_title="My Great ChatGPT",
+        page_title="Bina's Great AI",
         page_icon="🤗"
     )
-    st.header("My Great ChatGPT 🤗")
+    st.header("Bina's Great ChatGPT 🤗")
     st.sidebar.title("Options")
 
 
