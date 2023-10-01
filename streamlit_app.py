@@ -7,7 +7,7 @@ from langchain.schema import (
 )
 from langchain.callbacks import get_openai_callback
 
-openai_api_key = st.secrets["openai_api_key"]
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 def init_page():
     st.set_page_config(
