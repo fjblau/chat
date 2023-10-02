@@ -14,7 +14,7 @@ def init_page():
         page_title="Bina's Great AI",
         page_icon="🤗"
     )
-    st.header("Bina's Great ChatGPT 🤗")
+    st.header("Ask the smartest AJ 🤗")
     st.sidebar.title("Options")
 
 
